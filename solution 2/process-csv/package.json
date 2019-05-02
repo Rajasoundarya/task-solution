@@ -1,0 +1,17 @@
+{
+  "name": "process-csv",
+  "version": "1.0.0",
+  "description": "This function inputs csv , process and output multiple csv files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rajasoundarya",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^2.0.8",
+    "fs": "0.0.1-security",
+    "jsonexport": "^2.4.1",
+    "lodash.groupby": "^4.6.0"
+  }
+}

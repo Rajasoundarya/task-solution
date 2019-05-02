@@ -1,0 +1,19 @@
+{
+  "name": "process-csv-lambda-function",
+  "version": "1.0.0",
+  "description": "This function takes csv file path as input, process them and outputs multiple files grouped by column A into S3 bucket",
+  "main": "handler.js",
+  "dependencies": {
+    "aws-sdk": "^2.446.0",
+    "csvtojson": "^2.0.8",
+    "fs": "^0.0.1-security",
+    "jsonexport": "^2.4.1",
+    "lodash.groupby": "^4.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node handler.js"
+  },
+  "author": "Rajasoundarya",
+  "license": "ISC"
+}

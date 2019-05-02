@@ -1,0 +1,14 @@
+{
+  "name": "processcsv",
+  "version": "1.0.0",
+  "description": "This file takes the file path as input and process it and output multiple csv files grouped by column A",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Rajasoundarya",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
